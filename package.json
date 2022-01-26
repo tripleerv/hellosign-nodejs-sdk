@@ -1,11 +1,11 @@
 {
-  "name": "hellosign-sdk",
-  "version": "2.0.0",
+  "name": "@tripleerv/hellosign-sdk",
+  "version": "2.1.0",
   "description": "HelloSign NodeJS SDK",
   "homepage": "https://github.com/HelloFax/hellosign-nodejs-sdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HelloFax/hellosign-nodejs-sdk"
+    "url": "git+https://github.com/tripleerv/hellosign-nodejs-sdk.git"
   },
   "bugs:": "apisupport@hellosign.com",
   "engines": {
@@ -25,5 +25,14 @@
     "expect.js": "^0.3.1",
     "mocha": "^7.0.1",
     "sinon": "^1.14.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tripleerv/hellosign-nodejs-sdk/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT"
 }
